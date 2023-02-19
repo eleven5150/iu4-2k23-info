@@ -20,3 +20,6 @@ add_executable(while_loop
 
 add_executable(for_loop
         sem02/for_loop/main.c)
+
+add_executable(typecasting
+        sem02/typecasting/main.c)
