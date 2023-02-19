@@ -1,8 +1,0 @@
-C:/Study/Teaching/Learning C/iu4-2k23-info/cmake-build-debug/CMakeFiles/sem01.dir
-C:/Study/Teaching/Learning C/iu4-2k23-info/cmake-build-debug/CMakeFiles/sign_of_numbers.dir
-C:/Study/Teaching/Learning C/iu4-2k23-info/cmake-build-debug/CMakeFiles/functions.dir
-C:/Study/Teaching/Learning C/iu4-2k23-info/cmake-build-debug/CMakeFiles/switch_case.dir
-C:/Study/Teaching/Learning C/iu4-2k23-info/cmake-build-debug/CMakeFiles/while_loop.dir
-C:/Study/Teaching/Learning C/iu4-2k23-info/cmake-build-debug/CMakeFiles/for_loop.dir
-C:/Study/Teaching/Learning C/iu4-2k23-info/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Study/Teaching/Learning C/iu4-2k23-info/cmake-build-debug/CMakeFiles/rebuild_cache.dir
