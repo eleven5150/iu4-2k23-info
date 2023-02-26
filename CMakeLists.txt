@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(sem01 C)
+project(iu4-2k23-info C)
 
 set(CMAKE_C_STANDARD 11)
 
@@ -23,3 +23,12 @@ add_executable(for_loop
 
 add_executable(typecasting
         sem02/typecasting/main.c)
+
+add_executable(arguments
+        sem03/arguments/main.c)
+
+add_executable(array_matrices
+        sem03/array_matrices/main.c)
+
+add_executable(strings
+        sem03/strings/main.c)
