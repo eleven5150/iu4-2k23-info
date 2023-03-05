@@ -32,3 +32,23 @@ add_executable(array_matrices
 
 add_executable(strings
         sem03/strings/main.c)
+
+add_executable(factorial_recursion
+        sem04/factorial_recursion/main.c)
+
+add_executable(enum_directions
+        sem04/enum_directions/main.c)
+
+add_executable(headers_structs_preprocessordirectives
+        sem04/headers_structs_preprocessordirectives/src/main.c
+        sem04/headers_structs_preprocessordirectives/src/util.c
+        )
+
+add_executable(global_n_local_variables
+        sem04/global_n_local_variables/main.c
+        )
+
+target_include_directories(headers_structs_preprocessordirectives
+        PRIVATE sem04/headers_structs_preprocessordirectives/inc
+        )
+
