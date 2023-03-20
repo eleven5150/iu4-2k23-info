@@ -52,3 +52,11 @@ target_include_directories(headers_structs_preprocessordirectives
         PRIVATE sem04/headers_structs_preprocessordirectives/inc
         )
 
+add_executable(pointers
+        sem05/pointers/main.c)
+
+add_executable(function_pointers
+        sem05/function_pointers/main.c)
+
+add_executable(heap
+        sem05/heap/main.c)
