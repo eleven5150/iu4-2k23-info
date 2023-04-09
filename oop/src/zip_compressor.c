@@ -37,8 +37,11 @@ void ZipCompressor_status(Compressor_t *compressor) {
     assert(compressor);
     assert(compressor->__impl);
     ZipCompressor_t *zip_compressor = (ZipCompressor_t *) compressor->__impl;
-    printf("Compressed ratio: %d, error: %d, compression method: %d\n", zip_compressor->compressed_ratio,
-           zip_compressor->error, zip_compressor->compression_method);
+    printf("Compressed ratio: %d, error: %d, compression method: %d\n",
+           zip_compressor->compressed_ratio,
+           zip_compressor->error,
+           zip_compressor->
+    );
 }
 
 void ZipCompressor_free(Compressor_t *compressor) {
