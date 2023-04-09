@@ -37,8 +37,11 @@ void RarCompressor_status(Compressor_t *compressor) {
     assert(compressor);
     assert(compressor->__impl);
     RarCompressor_t *rar_compressor = (RarCompressor_t *) compressor->__impl;
-    printf("Compressed ratio: %d, error: %d, using encryption: %d\n", rar_compressor->compressed_ratio,
-           rar_compressor->error, rar_compressor->is_crypt);
+    printf("Compressed ratio: %d, error: %d, using encryption: %d\n",
+           rar_compressor->compressed_ratio,
+           rar_compressor->error,
+           rar_compressor->is_crypt
+    );
 }
 
 void RarCompressor_free(Compressor_t *compressor) {
